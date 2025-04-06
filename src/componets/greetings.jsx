@@ -1,5 +1,5 @@
 import React from 'react';
-function Greetings({name}) {
+function greetings({name}) {
   return (
     <div>
       <h3>Hello, {name}!</h3>
@@ -7,3 +7,4 @@ function Greetings({name}) {
     </div>
   );
 }
+export default greetings;
